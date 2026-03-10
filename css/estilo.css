@@ -1,0 +1,84 @@
+/*
+Arquivo de Estilo de Projeto
+*/
+
+body {
+    background: white;
+    color: black;
+    font-family: sans-serif, Arial, Verdana;
+    display: flex; /*ativa o flexbox no body*/
+    justify-content: center; /*centraliza horizontal*/
+    align-items: center; /*centraliza vertical*/
+    height: 100vh;/*define a altura como 100% do viewport - view height*/
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px; /*margem externa abaixo */
+}
+
+label{
+    
+    display: block;/* mostra um em cada linha - bloco */
+    margin-top: 8px;
+    font-weight: bold; /* negrito */
+    font-size: 14px;
+}
+input{
+    width: 100%;/*ocupa 100% da largura disponível*/
+    padding: 8px; /* espaço interno */
+    margin-top: 4px;
+    border: 1px solid #ccc; /*Cria borda*/
+    border-radius: 8px; /* Arredonda os cantos */
+
+}
+
+button{
+
+    width: 100%;
+    background: #0ea882cb;
+    color: white;
+    padding: 16px;
+    border: none;/*nenhuma borda*/
+    border-radius: 8px;
+    margin-top: 16px;
+    font-size: 16px;
+    cursor: pointer; /*cursor da mãozinha*/
+    
+}
+button:hover{
+    background: #085ab1; /*hover é quando colocamos o mouse sobre*/
+}
+/* Classes CSS (Começa sempre por ponto final) */
+.limpar{
+    background: rgba(255, 0, 0, 0.849);
+}
+.limpar:hover{
+    background: rgba(255, 0, 106, 0.137);
+}
+.formulario{
+    background: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /*sombra */
+    width: 320px; /*largura máxima em pixel*/
+
+}
+/* parâmetros do box shadow:
+0 - deslocamento horizontal
+8 - deslocamento vertical
+24 - blur - embaçamento. Quanto >, mais suave fica
+rgba - o a é da alpha ou transparencia; é sempre 0 a 1*/
+
+/* Identificadores no CSS
+São únicos e formatam pelo id. Utiliza-se # */
+
+#resultado{
+    margin-top: 24px ;
+    padding: 16px ;
+    background: #f8f9fa;
+    border-left: 4px solid #007bff; /*borda apenas na esquerda*/
+    display: none;/*oculta no início*/
+}
