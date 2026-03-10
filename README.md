@@ -10,3 +10,6 @@ O projeto inclui CSS e manipulação de campos via JS.
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
+
+## Licença
+Este projeto esta licenciado sobre a **Licença MIT**
